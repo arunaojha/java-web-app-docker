@@ -1,4 +1,4 @@
-FROM tomcat:8.0
+FROM tomcat:9.0-jdk11
 
 ADD ./webapps/target/java-web-app*.war /usr/local/tomcat/webapps/java-web-app.war
 
